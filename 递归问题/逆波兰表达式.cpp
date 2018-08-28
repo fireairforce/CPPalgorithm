@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+double exp()
+{
+    //读入一个逆波兰表达式，并计算其值。
+    char s[20];
+    cin>>s;
+    switch(s[0])
+    {
+        case '+': return exp()+exp();
+        case '-': return exp()-exp();
+        case '*': return exp()*exp();
+        case '/': return exp()/exp();
+        default: return atof(s);//atof把一个字符串类型的数转换成浮点数。
+        break;
+    }
+}
+int main()
+{
+   printf("%lf",exp());
+    return 0;
+}

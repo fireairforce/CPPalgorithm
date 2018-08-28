@@ -1,0 +1,12 @@
+Dumbledore (10,10) 000
+Snape (-1,-1) 007
+Harry (2,1) 231
+Ron (1,0) 311
+Hermione (2,1) 402
+
+Dumbledore (10,10) 000
+Snape (-1,-1) 007
+Harry (2,1) 231
+Ron (1,0) 311
+Hermione (2,1) 402
+
